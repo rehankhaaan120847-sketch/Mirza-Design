@@ -1,90 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mirza Designing</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+      text-align: center;
       background: #f5f5f5;
       color: #333;
-      text-align: center;
     }
     header {
-      background: #111;
-      color: #fff;
+      background: #007bff;
+      color: white;
       padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
     }
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
+    .content {
+      margin: 40px auto;
     }
-    header p {
-      margin: 5px 0 0;
-      font-size: 1rem;
-    }
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 15px;
-      padding: 20px;
-    }
-    .gallery img {
-      width: 100%;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      transition: transform 0.3s;
-    }
-    .gallery img:hover {
-      transform: scale(1.05);
-    }
-    footer {
-      background: #111;
-      color: #fff;
-      padding: 20px;
-      margin-top: 20px;
-    }
-    .social-icons {
-      margin-top: 10px;
-    }
-    .social-icons a {
-      margin: 0 10px;
+    .btn {
       display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #25d366;
+      color: white;
+      font-size: 18px;
+      border-radius: 8px;
       text-decoration: none;
     }
-    .social-icons img {
-      width: 30px;
-      height: 30px;
+    .btn:hover {
+      background: #1ebe5a;
+    }
+    .icon {
+      margin-right: 10px;
+      vertical-align: middle;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Mirza Designing</h1>
-    <p>Professional Graphic Designing | Wallpapers | PVC | YouTube Banners</p>
-  </header>
+  <header>Mirza Designing</header>
 
-  <section class="gallery">
-    <img src="https://via.placeholder.com/400x250?text=Wallpaper+Sample" alt="Wallpaper Sample">
-    <img src="https://via.placeholder.com/400x250?text=PVC+Design+Sample" alt="PVC Sample">
-    <img src="https://via.placeholder.com/400x250?text=YouTube+Banner+Sample" alt="YouTube Banner Sample">
-    <img src="https://via.placeholder.com/400x250?text=Logo+Sample" alt="Logo Sample">
-  </section>
+  <div class="content">
+    <h2>Welcome to Mirza Designing</h2>
+    <p>Contact us directly on WhatsApp for more details.</p>
 
-  <footer>
-    <p>Contact: 03708518868 | Email: hassan7baig@gmail.com</p>
-    <div class="social-icons">
-      <a href="https://wa.me/923708518868" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
-      </a>
-      <a href="https://www.tiktok.com/@spider.girl_og" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg" alt="TikTok">
-      </a>
-    </div>
-  </footer>
+    <!-- WhatsApp Link Button -->
+    <a class="btn" href="https://wa.me/923708518868" target="_blank">
+      <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+           alt="WhatsApp" width="24" height="24">
+      Chat on WhatsApp
+    </a>
+  </div>
 </body>
-  </html>
+</html>
+
   
