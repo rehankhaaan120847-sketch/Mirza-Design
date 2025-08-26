@@ -101,5 +101,79 @@
       background: #ff4081;
       color: #fff;
       border-radius: 30px;
-      text-deco
-      
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+
+    .contact-links a:hover {
+      background: #e91e63;
+    }
+
+    /* Animations */
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      background: rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Mirza Designing</h1>
+    <p>Creative Graphic Designer | Logos • Posters • Banners • Social Media</p>
+  </header>
+
+  <!-- Services -->
+  <section id="services">
+    <h2>My Services</h2>
+    <div class="services">
+      <div class="service"><i class="fas fa-pen-nib fa-2x"></i><p>Logo Design</p></div>
+      <div class="service"><i class="fas fa-image fa-2x"></i><p>Posters & Flyers</p></div>
+      <div class="service"><i class="fas fa-tv fa-2x"></i><p>Social Media Banners</p></div>
+      <div class="service"><i class="fas fa-layer-group fa-2x"></i><p>Custom Graphics</p></div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio">
+    <h2>My Portfolio</h2>
+    <div class="portfolio">
+      <img src="https://via.placeholder.com/400x300/ff7f7f/fff?text=Logo+Design" alt="Work 1">
+      <img src="https://via.placeholder.com/400x300/7f7fff/fff?text=Poster+Design" alt="Work 2">
+      <img src="https://via.placeholder.com/400x300/7fff7f/fff?text=Banner+Design" alt="Work 3">
+      <img src="https://via.placeholder.com/400x300/ffbf7f/fff?text=Social+Media" alt="Work 4">
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Let's work together! Reach out via WhatsApp or Email.</p>
+    <div class="contact-links">
+      <a href="https://wa.me/923708518868" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      <a href="mailto:hassan7baig@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+      <a href="https://www.tiktok.com/@spider.girl_og" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Mirza Designing. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
