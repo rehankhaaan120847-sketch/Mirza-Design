@@ -4,5 +4,33 @@
   <!-- Homepage -->
   <url>
     <loc>https://hassanbaiggg.github.io/Mirza-Design/</loc>
-    <lastmod>2025-08-27</lastmod
-                         
+    <lastmod>2025-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About Page -->
+  <url>
+    <loc>https://hassanbaiggg.github.io/Mirza-Design/about.html</loc>
+    <lastmod>2025-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Projects Page -->
+  <url>
+    <loc>https://hassanbaiggg.github.io/Mirza-Design/projects.html</loc>
+    <lastmod>2025-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://hassanbaiggg.github.io/Mirza-Design/contact.html</loc>
+    <lastmod>2025-08-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
