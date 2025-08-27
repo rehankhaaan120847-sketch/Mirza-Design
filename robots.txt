@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://hasscbaig.github.io/Mirza-Design/sitemap.xml
+
+Sitemap: https://hassanbaiggg.github.io/Mirza-Design/sitemap.xml
